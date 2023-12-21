@@ -10,7 +10,7 @@ const Legale = () => {
     <div className="container mt-5">
       <h1>Mentions Légales</h1>
 
-      {/* Section 1 - Éditeur du site */}
+      
       <div>
         <h2 onClick={() => setShowEditor(!showEditor)}>Éditeur du site</h2>
         {showEditor && (
@@ -23,7 +23,7 @@ const Legale = () => {
         )}
       </div>
 
-      {/* Section 2 - Hébergeur du site */}
+      
       <div>
         <h2 onClick={() => setShowHost(!showHost)}>Hébergeur du site</h2>
         {showHost && (
@@ -35,7 +35,7 @@ const Legale = () => {
         )}
       </div>
 
-      {/* Section 3 - Crédits des images */}
+      
       <div>
         <h2 onClick={() => setShowCredits(!showCredits)}>Crédits des images</h2>
         {showCredits && (

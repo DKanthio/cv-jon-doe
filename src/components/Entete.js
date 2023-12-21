@@ -5,11 +5,11 @@ import '../App.css';
 import { useLocation } from 'react-router-dom';
 
 const Entete = () => {
-  const [activeLink, setActiveLink] = useState(""); // État pour suivre le lien actif
+  const [activeLink, setActiveLink] = useState(""); 
   const location = useLocation();
 
   useEffect(() => {
-    setActiveLink(location.pathname); // Mettre à jour le lien actif en fonction de l'URL
+    setActiveLink(location.pathname); 
   }, [location]);
 
   const style = {
@@ -30,10 +30,10 @@ const Entete = () => {
 
   const activeLinkStyle = {
     ...linkStyle,
-    color: '#0d6efd', // Couleur spécifique pour l'élément actif
+    color: '#0d6efd',
   };
 
-  const activeClass = "active"; // Classe pour l'élément actif
+  const activeClass = "active"; 
 
   return (
     <Navbar expand="lg" style={style}>
@@ -93,7 +93,7 @@ const Entete = () => {
 >
   Mentions Légales
 </Nav.Link>
-            {/* Ajoutez d'autres liens de la même manière */}
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
