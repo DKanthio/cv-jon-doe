@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600&display=swap');
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  color: #444; 
+  background-color: #EEE; 
+}
+
+h1, h2, h3, h4, h5, h6,
+strong {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  
+}
+
+
+/* App.css (ou votre fichier CSS) */
+
+/* Effet au survol des liens */
+.navbar-nav .nav-link:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* Blanc avec transparence 0.8 */
+  transition: background-color 0.3s ease-in-out; /* Transition fluide */
+}
+
+
+strong {
+  color:#000000;
+}
+/* Styles pour la classe overlay (utilisée dans Accueil.js) */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.3;
+}
+
+/* Styles pour la classe progress-bar (utilisée dans Accueil.js) */
+.progress-bar {
+  background-color: #0d6efd; /* Couleur pour les barres de progression */
+  color:#EEE; /* Couleur du texte sur les barres de progression */
+}
+
+/* Styles spécifiques pour les cartes de Services (utilisées dans Service.js) */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Styles spécifiques pour les cartes de Réalisations (utilisées dans Realisations.js) */
+.card {
+  width: 18rem;
+  margin: 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 8px;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: '#EEE';
+  color: '#444';
+}
+
+/* Styles pour les boutons des Réalisations (utilisés dans Realisations.js) */
+.btn-github {
+  background-color:'#EEE';
+  border-color: '#007bff';
+  color: '#fff';
+  padding: 5px 10px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.about-section {
+  fontFamily: 'Nunito Sans', sans-serif;
+  color: '#444';
+}
+
+/* Style spécifique pour la photo */
+.about-section img {
+  width: 200px;
+  height: auto;
+  borderRadius: 50%;
+}
+
+.card {
+  width: 18rem;
+  margin: 1rem;
+  boxShadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  borderRadius: 8px;
+  fontFamily: 'Arial, sans-serif';
+  backgroundColor: '#EEE';
+  color: '#333';
+}
+
+
+.card .btn {
+  backgroundColor: '#EEE';
+  borderColor: '#007bff';
+  color: '#fff';
+  padding: '5px 10px';
+  fontSize: '0.9rem';
+  textDecoration: 'none';
+  borderRadius: '5px';
+}
